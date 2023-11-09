@@ -8,7 +8,7 @@ public class Viva1 {
         String strength;
         int upper=0,lower=0,special=0,digit=0;
         System.out.println("Enter your password: ");
-        String password=sc.next();
+        String password=sc.nextLine();
                 
         for(int i=0;i<password.length();i++){
         char x1=password.charAt(i);
